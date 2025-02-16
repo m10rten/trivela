@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "removeComments": true,
+    "jsx": "preserve",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "allowJs": false,
+    "noImplicitAny": true,
+    "allowImportingTsExtensions": false,
+    "allowUnusedLabels": false,
+    "noUnusedLocals": false,
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": false,
+    "resolvePackageJsonExports": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "newLine": "lf",
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noFallthroughCasesInSwitch": false,
+    "noUnusedParameters": true,
+    "useUnknownInCatchVariables": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
