@@ -1,1 +1,1 @@
-import add from "@repo/calculator/add";
+import add from "@trivela/calculator/add";

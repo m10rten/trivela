@@ -1,4 +1,12 @@
 {
   "name": "@trivela/calculator",
-  "type": "module"
+  "type": "module",
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    "add": {
+      "default": "./src/add.ts"
+    }
+  }
 }
