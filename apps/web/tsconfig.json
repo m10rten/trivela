@@ -3,6 +3,9 @@
   "compilerOptions": {
     "paths": {
       "@trivela/calculator/*": ["../../packages/calculator/src/*"]
-    }
-  }
+    },
+    "rootDir": "../../",
+    "baseUrl": "./"
+  },
+  "include": [".", "../../packages"]
 }

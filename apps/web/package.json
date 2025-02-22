@@ -5,7 +5,9 @@
   "description": "",
   "type": "module",
   "main": "src/index.ts",
-  "scripts": {},
+  "scripts": {
+    "dev": "tsx --watch src/index.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",

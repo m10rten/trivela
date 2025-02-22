@@ -1,6 +1,7 @@
 {
   "name": "@trivela/calculator",
   "type": "module",
+  "main": "src/index.ts",
   "files": [
     "./dist"
   ],
