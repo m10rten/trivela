@@ -1,6 +1,0 @@
-{
-  "extends": "@trivela/config/base.tsconfig.json",
-  "compilerOptions": {
-    "rootDir": "."
-  }
-}

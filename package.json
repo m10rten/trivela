@@ -5,11 +5,12 @@
   "description": "Creative approach to building full scale applications.",
   "scripts": {
     "lint": "eslint ./**/*.ts",
-    "eslint:fix": "eslint ./**/*.ts --fix",
-    "eslint:check": "eslint ./**/*.ts",
-    "prettier:check": "prettier --check .",
-    "prettier:format": "prettier --write .",
-    "format": "prettier --write ."
+    "lint:fix": "eslint ./**/*.ts --fix",
+    "format:check": "prettier --check .",
+    "format": "prettier --write .",
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "reset": "pnpm i && pnpm -r build"
   },
   "keywords": [],
   "author": "m10rten",
@@ -26,7 +27,6 @@
     "prettier-plugin-tailwindcss": "0.6.11",
     "tsup": "8.3.6",
     "tsx": "4.19.2",
-    "turbo": "2.4.2",
     "typescript": "5.7.3",
     "typescript-eslint": "8.24.0",
     "vitest": "3.0.5"
