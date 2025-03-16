@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "build": "pnpm -r build",
     "dev": "pnpm -r dev",
-    "reset": "pnpm i && pnpm -r build"
+    "reset": "pnpm i && pnpm -r build",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "m10rten",
@@ -23,6 +24,7 @@
     "@types/jest": "29.5.14",
     "@types/node": "22.13.4",
     "eslint": "9.20.1",
+    "husky": "9.1.7",
     "prettier": "3.5.1",
     "prettier-plugin-tailwindcss": "0.6.11",
     "tsup": "8.3.6",
