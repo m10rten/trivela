@@ -1,4 +1,3 @@
 packages:
-  - web
-  - config
-  - api
+  - apps/*
+  - packages/*

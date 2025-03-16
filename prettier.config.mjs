@@ -12,8 +12,6 @@ const config = {
   jsxSingleQuote: false,
   quoteProps: "as-needed",
   endOfLine: "lf",
-  importOrder: ["^node:", "<THIRD_PARTY_MODULES>", "^@\\w+/(.*)$", "^@repo/(.*)$", "^[./]"],
-  plugins: ["@trivago/prettier-plugin-sort-imports"],
 };
 
 export default config;

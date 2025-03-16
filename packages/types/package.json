@@ -1,0 +1,10 @@
+{
+  "name": "@trivela/types",
+  "type": "module",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts"
+  }
+}
